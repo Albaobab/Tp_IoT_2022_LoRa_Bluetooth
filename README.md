@@ -2,7 +2,7 @@
 
 ## 1. Client :
  
-### 1. Récupération d'un paquet Mqtt sur test.mosquitto.org :  <nomAP>/ipaddr
+### 1. Récupération d'un paquet Mqtt sur test.mosquitto.org :  nomAP/ipaddr
 
 ### 2. Se connecter à une carte sur l'AP et faire une requete http donnant les valeurs nécessaire à LoRa.
 
