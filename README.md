@@ -2,18 +2,21 @@
 
 ## 1. Client :
  
-### 1. Récupération d'un paquet Mqtt sur mon pc ou mosquitto? alban/username alban/password
+### 1. Récupération d'un paquet Mqtt sur test.mosquitto.org :  <nomAP>/ipaddr
 
-### 2. Se connecter à ma carte sur l'AP pour demander sur cet mqtt lora/3trucs puis lora/send quand on est pret
+### 2. Se connecter à une carte sur l'AP et faire une requete http donnant les valeurs nécessaire à LoRa.
 
 ### 3. Ecouter les données de LoRa.
 
 ## 2. Serveur :
 
-### Refaire le serveur que vous avez appellé et le tester.
+### Faire le serveur servant les données au Client.
 
-## Ensuite...
+## 3. Ensuite...
 
-### 1. Sur le serveur, échangez la partie LoRa par du bluetooth (ou BLE)
+### 1. Ajouter une fonction permettant de switcher entre Serveur et Client
 
-### 2. Refaire la partie cliente pour répondre au bluetooth
+### 2. Sur le serveur, échangez la partie LoRa par du bluetooth (ou BLE)
+
+### 3. Refaire la partie cliente pour répondre au bluetooth
+
