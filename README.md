@@ -4,7 +4,7 @@
  
 ### 1. Récupération d'un paquet Mqtt sur test.mosquitto.org :  srt/nom-groupe
 
-### 2. Se connecter à une carte sur l'AP et faire une requete http donnant les valeurs nécessaire à LoRa.
+### 2. Se connecter à une carte sur l'AP et faire une requete mqtt donnant les valeurs nécessaire à LoRa.
 
 ### 3. Ecouter les données de LoRa.
 
