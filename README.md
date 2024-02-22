@@ -2,7 +2,7 @@
 
 ## 1. Receiver :
  
-### 1. Récupération d'un paquet Mqtt sur test.mosquitto.org :  srt/<nom-groupe>
+### 1. Récupération d'un paquet Mqtt sur test.mosquitto.org :  srt/nom-groupe
 
 ### 2. Se connecter à une carte sur l'AP et faire une requete http donnant les valeurs nécessaire à LoRa.
 
@@ -10,7 +10,7 @@
 
 ## 2. Sender :
 
-### Envoyer les données de connexion LoRa sur test.mosquitto.org au topic srt/<nom-groupe>.
+### Envoyer les données de connexion LoRa sur test.mosquitto.org au topic srt/nom-groupe.
 
 ## 3. Ensuite...
 
