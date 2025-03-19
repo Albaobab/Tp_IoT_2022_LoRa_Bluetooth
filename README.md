@@ -4,13 +4,15 @@ Ce TP est à réaliser à deux groupes.
 
 ## 1. Mise en place
 
-### 1. Installer l'IDE arduino et les dépendances nécessaires
+### 1. Installer l'IDE VScode et les dépendances nécessaires
 
-cf. [http://www.smartcomputerlab.org/](http://www.smartcomputerlab.org/)
+cf. [https://docs.espressif.com/projects/esp-idf/en/v5.4/esp32/get-started/index.html](https://docs.espressif.com/projects/esp-idf/en/v5.4/esp32/get-started/index.html)
+
+Documentation de la board: [http://www.smartcomputerlab.org/](http://www.smartcomputerlab.org/)
 
 ### 2. Se connecter sur un point d'accès Wifi
 
-### 3. Envoyer une message mqtt sur test.mosquitto.org tp_popo/alban
+### 3. Envoyer un message mqtt sur le broker test.mosquitto.org au topic tp/alban
 
 ## 2. LoRa
 
@@ -26,7 +28,7 @@ Groupe 2. Ecouter les messages mqtt en en déduire les valeurs pour un envoi de 
 
 Groupe 1: Écouter les messages LoRa et les afficher.
 
-Groupe 2. Envoyer un message LoRa contenant une valeur venant d'un capteur.
+Groupe 2. Envoyer un message LoRa contenant des données (potentiellement en utilisant un caoteur.
 
 ## 3. Inversion
 
